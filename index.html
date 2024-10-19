@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QUICK WORK</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+      <h1 class="website-name">Quick Work</h1>
+      <nav>
+        <!-- navigation links -->
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#plumbing">Plumbing</a></li>
+          <li><a href="#carpentry">Carpentry</a></li>
+          <li><a href="#electrical">Electrical Works</a></li>
+          <li><a href="#welding">Welding</a></li>
+          <li><a href="#painting">Painting</a></li>
+          <li><a href="#tailoring">Tailoring</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Manual Labor Certification Courses</h2>
+    <p>Enhance your skills and embark on a fulfilling career in the field of manual labor with our certification courses. We offer comprehensive training programs in various disciplines, including plumbing, carpentry, electrical works, welding, painting, and tailoring.</p>
+    <p>Our courses are designed to provide hands-on training and practical knowledge to help you become proficient in your chosen field. Each course is taught by experienced mentors who are experts in their respective domains.</p>
+    <p>Choose a course that interests you and provide your details below to contact the mentor for further information and enrollment. Start your journey towards a successful career in manual labor today!</p>
+  </section>
+  
+  <section id="courses">
+    <h2>Courses</h2>
+    <table>
+      <tr>
+        <td>
+          <section id="plumbing" class="course-box">
+            <h2 class="course-name">PLUMBING</h2>
+            <img src="https://media.istockphoto.com/id/1339613829/photo/plumber-at-work-in-a-bathroom-plumbing-repair-service-assemble-and-install-concept.jpg?b=1&s=170667a&w=0&k=20&c=xGdNZXdb0wauxwegC-7GaN9Bp67iweE9HuozNeDUfBA=" alt="Plumbing Course Image">
+            <p>Learn the essential skills and techniques required for plumbing.</p>
+            <button data-course="plumbing">Contact Mentor</button>
+          </section>
+        </td>
+        <td>
+          <section id="carpentry" class="course-box">
+            <h2 class="course-name">CARPENTRY</h2>
+            <img src="https://media.istockphoto.com/id/1404540253/photo/woodturning-man.jpg?b=1&s=170667a&w=0&k=20&c=XDdUUjN_wEPpvxXtQpttC_IIylIVP8qfe695ptNqwlg=" alt="Carpentry Course Image">
+            <p>Master the art of carpentry and woodworking.</p>
+            <button data-course="carpentry">Contact Mentor</button>
+          </section>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <section id="electrical" class="course-box">
+            <h2 class="course-name">ELECTRICAL</h2>
+            <img src="https://media.istockphoto.com/id/1409304338/photo/electricity-and-electrical-maintenance-service-engineer-hand-holding-ac-multimeter-checking.jpg?b=1&s=170667a&w=0&k=20&c=-pKlDBEqr58EezS_XgZim2PDNZ3d0D_2WNUwnDoxwJA=" alt="Electrical Works Course Image">
+            <p>Gain expertise in electrical installations and repairs.</p>
+            <button data-course="electrical">Contact Mentor</button>
+          </section>
+        </td>
+        <td>
+          <section id="welding" class="course-box">
+            <h2 class="course-name">WELDING</h2>
+            <img src="https://media.istockphoto.com/id/1340136909/photo/welding-metal.jpg?b=1&s=170667a&w=0&k=20&c=obTf220vKMNbdCcAa_Huqrlz7kD7nnGMlJ0aSp6kuM0=" alt="Welding Course Image">
+            <p>Acquire the skills needed for welding and metal fabrication.</p>
+            <button data-course="welding">Contact Mentor</button>
+          </section>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <section id="painting" class="course-box">
+            <h2 class="course-name">PAINTING</h2>
+            <img src="https://media.istockphoto.com/id/1003648164/photo/master-painting-wood-doors-paint-the-door-with-a-spray.jpg?b=1&s=170667a&w=0&k=20&c=fW6_cdG2EqEwg6o2dkeRzkQ4BCBgRnJAhPiHGpthp7o=" alt="Painting Course Image">
+            <p>Learn the techniques of painting for various surfaces and finishes.</p>
+            <button data-course="painting">Contact Mentor</button>
+          </section>
+        </td>
+        <td>
+          <section id="tailoring" class="course-box">
+            <h2 class="course-name">TAILORING</h2>
+            <img src="https://www.cita.org.hk/wp-content/uploads/2016/10/tailoring2-1024x678.jpg"  alt="Tailoring Course Image">
+            <p>Master the art of tailoring and garment construction.</p>
+            <button data-course="tailoring">Contact Mentor</button>
+          </section>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <div id="mentor-details-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Mentor Details</h2>
+      <div id="mentor-details"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Manual Labor Certification Courses. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
